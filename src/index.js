@@ -14,7 +14,7 @@ function isIsogram(str){
     return {};
   } else {
     var chars = str.toLowerCase().split('');
-    var found = {};
+    var found = chars.push();
     console.log(found);
     for (var i = 0; i < chars.length; i++) {
         var currentLetter = chars[i];
