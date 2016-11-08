@@ -12,8 +12,7 @@ isIsogram( "moOse" ) == false // -- ignore letter case
 function isIsogram(str){
   if (typeof str === 'undefined') {
     return {};
-  }
-  else {
+  } else {
     var chars = str.toLowerCase().split('');
     var found = {};
     console.log(found);
