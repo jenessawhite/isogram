@@ -14,14 +14,16 @@ function isIsogram(str){
     return {};
   } else {
     var chars = str.toLowerCase().split('');
-    var found = chars.push();
+    var found = [];
+    console.log(chars);
+    found = chars.push[];
     console.log(found);
     for (var i = 0; i < chars.length; i++) {
         var currentLetter = chars[i];
         if (found [currentLetter]) { //if seen before
-            return found = false
+            return false
         } else { //seen for first time
-            return found = true;
+            return true;
         }
       }
     }
